@@ -24,7 +24,7 @@ export default function PrescriptionGenerator() {
     doctorRegistration: "MCI-54321",
     doctorContact: "Clinic: (022) 2654-1234 | Emergency: +91 98765 43210",
     doctorSignature: "https://icon2.cleanpng.com/20180604/sqf/aa9qr7x39.webp",
-    doctorStamp: "https://www.transparentpng.com/thumb/stamp/medical-stamp-png-clipart-8.png",
+    doctorStamp: "https://www.shutterstock.com/shutterstock/photos/302370713/display_1500/stock-vector-clinically-proven-ink-rubber-stamp-302370713.jpg",
     
     // Patient Info
     patientName: "Mr. Rajesh Kumar",
