@@ -457,36 +457,6 @@ export default function PrescriptionGenerator() {
           </div>
         </div>
       )}
-
-      {/* Print Styles */}
-      <style dangerouslySetInnerHTML={{ __html: `
-        @media print {
-          body {
-            background: white;
-            font-size: 10pt;
-            margin: 0;
-            padding: 0;
-          }
-          @page {
-            size: A4;
-            margin: 0.5cm;
-          }
-          .print\\:p-0 { padding: 0 !important; }
-          .print\\:p-2 { padding: 0.5rem !important; }
-          .print\\:border-0 { border: none !important; }
-          .print\\:shadow-none { box-shadow: none !important; }
-          .print\\:border-b-2 { border-bottom-width: 1pt !important; border-color: #333 !important; }
-          .print\\:border-t-2 { border-top-width: 1pt !important; border-color: #333 !important; }
-          .print\\:hidden { display: none !important; }
-          .print\\:max-w-none { max-width: none !important; }
-          .print\\:h-auto { height: auto !important; }
-          .print\\:gap-2 { gap: 0.5rem !important; }
-          .print\\:text-\\[0\\.65rem\\] { font-size: 0.65rem !important; }
-          .print\\:pt-1 { padding-top: 0.25rem !important; }
-          .print\\:pt-2 { padding-top: 0.5rem !important; }
-          .print\\:pb-2 { padding-bottom: 0.5rem !important; }
-        }
-      `}} />
     </div>
   );
 }
