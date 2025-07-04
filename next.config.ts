@@ -29,6 +29,14 @@ const nextConfig: NextConfig = {
         protocol: 'https',
         hostname: 'media.istockphoto.com',
       },
+      {
+        protocol: 'https',
+        hostname: 'icon2.cleanpng.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'www.transparentpng.com',
+      },
     ],
   },
 };
