@@ -425,8 +425,13 @@ export default function PrescriptionGenerator() {
                   layout="fill"
                   className="object-contain"
                   data-ai-hint="official stamp"
+                  onError={(e) => {
+                    const target = e.target as HTMLImageElement;
+                    target.src = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='10' fill='%23e6f2ff' stroke='%23296fdb' stroke-width='2'/%3E%3Ctext x='50%' y='50%' font-family='Arial' font-size='12' text-anchor='middle' dominant-baseline='middle' fill='%23296fdb'%3EOFFICIAL%3C/text%3E%3C/svg%3E";
+                  }}
                 />
               </div>
+              <p className="text-xs mt-1">{formData.hospitalName}</p>
             </div>
           </div>
 
