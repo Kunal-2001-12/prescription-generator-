@@ -1,3 +1,4 @@
+
 "use client";
 
 import { useState, useEffect } from 'react';
@@ -16,7 +17,7 @@ export default function PrescriptionGenerator() {
     hospitalName: "Metro Multispeciality Hospital",
     hospitalAddress: "34, Medical College Road, Parel, Mumbai - 400012",
     hospitalPhone: "Appointments: (022) 2654-1234 | Emergency: (022) 2654-9999",
-    hospitalLogo: "https://www.shutterstock.com/image-vector/staf-hermes-caduceus-medical-health-260nw-2084748217.jpg",
+    hospitalLogo: "https://media.istockphoto.com/id/1431615746/vector/plus-medical-logo-illustration.jpg?s=612x612&w=0&k=20&c=TbOyD863QVczZK-E42gi8mD6ajglCLyodcpfV5dolMo=",
     
     // Doctor Info
     doctorName: "Dr. Ananya Sharma",
@@ -24,7 +25,7 @@ export default function PrescriptionGenerator() {
     doctorRegistration: "MCI-54321",
     doctorContact: "Clinic: (022) 2654-1234 | Emergency: +91 98765 43210",
     doctorSignature: "https://icon2.cleanpng.com/20180604/sqf/aa9qr7x39.webp",
-    doctorStamp: "https://www.shutterstock.com/shutterstock/photos/302370713/display_1500/stock-vector-clinically-proven-ink-rubber-stamp-302370713.jpg",
+    doctorStamp: "https://www.shutterstock.com/image-vector/staf-hermes-caduceus-medical-health-260nw-2084748217.jpg",
     
     // Patient Info
     patientName: "Mr. Rajesh Kumar",
