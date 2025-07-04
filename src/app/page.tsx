@@ -16,7 +16,7 @@ export default function PrescriptionGenerator() {
     hospitalName: "Metro Multispeciality Hospital",
     hospitalAddress: "34, Medical College Road, Parel, Mumbai - 400012",
     hospitalPhone: "Appointments: (022) 2654-1234 | Emergency: (022) 2654-9999",
-    hospitalLogo: "https://media.istockphoto.com/id/1431615746/vector/plus-medical-logo-illustration.jpg?s=612x612&w=0&k=20&c=TbOyD863QVczZK-E42gi8mD6ajglCLyodcpfV5dolMo=",
+    hospitalLogo: "https://www.shutterstock.com/image-vector/staf-hermes-caduceus-medical-health-260nw-2084748217.jpg",
     
     // Doctor Info
     doctorName: "Dr. Ananya Sharma",
