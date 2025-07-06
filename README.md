@@ -35,6 +35,10 @@ A modern, intelligent prescription generator for healthcare professionals.
 3. **Open your browser:**  
    Visit [http://localhost:3000](http://localhost:3000) (or the port shown in your terminal).
 
+## Production Demo Link
+
+[https://prescription-generator-fz02yei7r.vercel.app](https://prescription-generator-fz02yei7r.vercel.app)
+
 ## License
 
 MIT
