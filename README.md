@@ -39,6 +39,11 @@ A modern, intelligent prescription generator for healthcare professionals.
 
 [https://prescription-generator-fz02yei7r.vercel.app](https://prescription-generator-fz02yei7r.vercel.app)
 
+## Preview
+
+![Prescription Form Screenshot 1](./docs/Screenshot-2025-07-06-104718.png)
+![Prescription Form Screenshot 2](./docs/Screenshot-2025-07-06-104802.png)
+
 ## License
 
 MIT
